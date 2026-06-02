@@ -1,4 +1,4 @@
-//Standalone config fix
+
 
 import type { NextConfig } from "next";
 
