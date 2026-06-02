@@ -9,6 +9,7 @@ export default function Home() {
         </h1>
         <p className="mt-3 text-lg text-neutral-400">
           weird, fun, and pointless websites worth your time
+         updated whenver felt like :|
         </p>
       </div>
       <SiteGrid />
