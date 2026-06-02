@@ -3,34 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-:root {
-color-scheme: dark;
-}
-
-* {
-  @apply border-zinc-800;
+  :root {
+    color-scheme: dark;
   }
 
-html {
-scroll-behavior: smooth;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-}
+  * {
+    @apply border-zinc-800;
+  }
 
-body {
-@apply text-zinc-100 overflow-x-hidden;
-min-height: 100vh;
-text-rendering: optimizeLegibility;
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-```
-background:
-  radial-gradient(circle at top left, rgba(139, 92, 246, 0.2), transparent 40%),
-  radial-gradient(circle at top right, rgba(59, 130, 246, 0.15), transparent 40%),
-  radial-gradient(circle at bottom, rgba(236, 72, 153, 0.15), transparent 40%),
-  #09090b;
-```
+  body {
+    @apply text-zinc-100 overflow-x-hidden;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
 
-}
+    background:
+      radial-gradient(circle at top left, rgba(139, 92, 246, 0.2), transparent 40%),
+      radial-gradient(circle at top right, rgba(59, 130, 246, 0.15), transparent 40%),
+      radial-gradient(circle at bottom, rgba(236, 72, 153, 0.15), transparent 40%),
+      #09090b;
+  }
 
 h1,
 h2,
